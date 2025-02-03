@@ -1,14 +1,16 @@
 #include <stdio.h>
 int main() {   
-    int number;
+    int number, number2;
    
-    printf("Enter a number: ");  
+    printf("Enter first number: ");  
     
     // reads and stores the number
     scanf("%d", &number);
+    printf("Enter the second number:");
+    scanf("%d",&number2);
 
     // displays output
-    printf("You entered: %d", number);
+    printf("You entered: %d and %d", number, number2);
     
     return 0;
 }
